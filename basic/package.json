@@ -1,0 +1,20 @@
+{
+  "name": "basic",
+  "version": "1.0.0",
+  "description": "",
+  "engines": {
+    "node": "<=v0.12.9"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Fabian 'fabiantheblind' Morón Zirfas <fabian.moron.zirfas@gmail.com> (http://fabianmoronzirfas.me)",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^1.17.1",
+    "johnny-five": "^0.9.17",
+    "particle-io": "^0.12.0"
+  }
+}
