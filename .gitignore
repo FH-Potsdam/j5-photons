@@ -45,6 +45,8 @@ build-tmp
 # a file with private data
 private.json
 private
+config
+config/default.json
 # for extendscript ID dev
 pdfs
 .idlk
@@ -65,4 +67,7 @@ Adobe\ After\ Effects\ Auto-Speichern
 
 # Particle Photon
 *.bin
+mqtt-example/app
+voodoospark
+
 
