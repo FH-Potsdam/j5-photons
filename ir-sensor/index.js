@@ -14,7 +14,6 @@ var board = new five.Board({
   })
 });
 board.on("ready", function() {
-  // this.samplingInterval(250);
 
   var proximity = new five.Proximity({
     controller: "GP2Y0A02YK0F",
