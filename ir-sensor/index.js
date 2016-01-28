@@ -10,7 +10,7 @@ var board = new five.Board({
   debug:true,
   io: new Particle({
   token    : config.get('token'),
-  deviceId : config.get('john')
+  deviceId : config.get('jim')
   })
 });
 board.on("ready", function() {
@@ -18,6 +18,10 @@ board.on("ready", function() {
   var proximity = new five.Proximity({
     controller: "GP2Y0A02YK0F",
     pin: "A1"
+  });
+    var proximity2 = new five.Proximity({
+    controller: "GP2Y0A02YK0F",
+    pin: "A2"
   });
   proximity.on("data", function() {
     console.log("Proximity: ");
